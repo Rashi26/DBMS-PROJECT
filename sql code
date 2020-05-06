@@ -1,0 +1,13 @@
+create mymov;
+create table user_details(
+     name varchar(50),
+     phone bigint(20),
+     emailid varchar(25),
+     userid varchar(25) UNIQUE,
+     password varchar(10) );
+     
+create table main_data(muser varchar(50) ,movie varchar(50),mdate date,mtiming varchar(15),
+mtheatre varchar(50),mseatno varchar(20),
+    seatcount char(50));
+    
+    create table movies(movno int(1) not null primary key, moviename varchar(20), imgpath1 varchar(100),imgpath2 varchar(100));
